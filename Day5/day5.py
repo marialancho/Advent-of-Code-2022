@@ -8,9 +8,7 @@ for i in range(8):
 #Part1
 
 arrangement_initial = [[],[],[],[],[],[],[],[],[]]
-for line in reversed(rows):
-    print(line)
-   
+for line in reversed(rows):  
     for j in range(9):
         if not(line[4*j+1] == ' '):
             arrangement_initial[j].append(line[4*j+1])        
